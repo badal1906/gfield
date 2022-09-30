@@ -1,0 +1,498 @@
+.home-superContainer {
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.homeUpper-section {
+  position: relative;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.homeLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid yellow; */
+  /* width: 100%; */
+}
+
+.homeLogo img {
+  width: 45%;
+  padding: 4.5rem 0 0 0;
+}
+
+.home-mainHead {
+  text-align: center;
+  line-height: 120%;
+  letter-spacing: 1.5px;
+  font-size: 5rem;
+  width: 100%;
+  margin-block-end: 2rem;
+  margin-block-start: 2rem;
+}
+
+.home-lowerSection {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+.home-lowerSection img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid green; */
+}
+.chat-icon {
+  position: fixed;
+  right: -45.8%;
+  top: 48%;
+  z-index: 1000 !important;
+  width: 50%;
+}
+.chat-icon img {
+  width: 8%;
+  right: 0;
+  z-index: 1000 !important;
+}
+
+.call-icon {
+  position: fixed;
+  right: -45.8%;
+  top: 40%;
+  z-index: 1000 !important;
+  width: 50%;
+}
+.call-icon img {
+  width: 7%;
+  z-index: 1000 !important;
+}
+
+.book-icon {
+  position: fixed;
+  right: -5%;
+  top: 42%;
+  z-index: 1000 !important;
+  width: 20%;
+  cursor: pointer;
+}
+.book-icon img {
+  position: fixed;
+  right: 0.3%;
+  top: 57%;
+  z-index: 1000 !important;
+  width: 3.8%;
+  cursor: pointer;
+}
+
+.book-main {
+  position: fixed;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  top: 0%;
+  padding-bottom: 0rem;
+  width: 100vw !important;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
+.brochure-main {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* top: 0%; */
+  padding-bottom: 0rem;
+  width: 100vw !important;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
+.contact-main {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  padding-bottom: 0rem;
+  width: 100vw !important;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 1440px) {
+  .home-superContainer {
+    overflow: hidden;
+    /* border: 1px solid red; */
+  }
+
+  .homeLogo img {
+    width: 50%;
+    padding: 2.5rem 0 0 0;
+  }
+
+  .home-mainHead {
+    font-size: 4.8rem;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .home-superContainer {
+    overflow: hidden;
+    /* border: 1px solid red; */
+  }
+
+  .homeLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeLogo img {
+    width: 45%;
+    padding: 4.5rem 0 0 0;
+  }
+
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+    font-size: 4.5rem;
+    width: 100%;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+
+  .home-lowerSection {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+  }
+  .home-lowerSection img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* margin-left: -0.6px; */
+    /* border: 2px solid green; */
+  }
+
+  .contact-main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    padding-bottom: 0rem;
+    width: 100vw !important;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+  }
+
+
+  .chat-icon {
+    position: fixed;
+    right: -45%;
+    top: 47%;
+    z-index: 1000 !important;
+    width: 50%;
+  }
+  .chat-icon img {
+    width: 8%;
+    right: 0;
+    z-index: 1000 !important;
+  }
+  
+  .call-icon {
+    position: fixed;
+    right: -45.2%;
+    top: 37%;
+    z-index: 1000 !important;
+    width: 50%;
+  }
+  .call-icon img {
+    width: 7%;
+    z-index: 1000 !important;
+  }
+  
+  .book-icon {
+    position: fixed;
+    right: -5%;
+    top: 42%;
+    z-index: 1000 !important;
+    width: 20%;
+    cursor: pointer;
+  }
+  
+  .book-icon img {
+    right: 1%;
+    width: 3.8%;
+    
+
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  
+  
+  .homeLogo img {
+    width: 45%;
+    padding: 4.5rem 0 0 0;
+  }
+  
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+    font-size: 3.5rem;
+    width: 100%;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  
+  .homeLogo img {
+    width: 45%;
+    padding: 4.5rem 0 0 0;
+  }
+  
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+    font-size: 3rem;
+    width: 100%;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+  
+  
+  .chat-icon {
+    right: -44.5%;
+    top: 50%;
+  }
+  .chat-icon img {
+    width: 10%;
+  }
+  
+  .call-icon {
+    position: fixed;
+    right: -44.7%;
+    top: 42%;
+    z-index: 1000 !important;
+    width: 50%;
+  }
+  .call-icon img {
+    width: 9%;
+    z-index: 1000 !important;
+  }
+  
+  .book-icon {
+    position: fixed;
+    right: -5%;
+    top: 42%;
+    z-index: 1000 !important;
+    width: 20%;
+    cursor: pointer;
+  }
+  .book-icon img {
+    position: fixed;
+    right: 0.5%;
+    top: 59%;
+    z-index: 1000 !important;
+    width: 5%;
+  }
+  
+  .book-main {
+    position: fixed;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    top: 0%;
+    padding-bottom: 0rem;
+    width: 100vw !important;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+  }
+  .brochure-main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 0%; */
+    padding-bottom: 0rem;
+    width: 100vw !important;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+  }
+  .contact-main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    padding-bottom: 0rem;
+    width: 100vw !important;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .homeLogo img {
+    width: 50%;
+    padding: 2.5rem 0 0 0;
+  }
+
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-size: 35px;
+    width: 90%;
+    font-weight: 500;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+
+  .home-lowerSection {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+  }
+  .home-lowerSection img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid green; */
+  }
+
+  .contact-main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0rem;
+  }
+
+  .brochure-main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 0%; */
+    /* padding-bottom: 5rem; */
+  }
+
+  
+.chat-icon {
+  position: fixed;
+  right: -41%;
+  top: 47%;
+  z-index: 1000 !important;
+  width: 50%;
+}
+.chat-icon img {
+  width: 15%;
+  right: 5%;
+  z-index: 1000 !important;
+}
+
+.call-icon {
+  position: fixed;
+  right: -41.5%;
+  top: 40%;
+  z-index: 1000 !important;
+  width: 50%;
+}
+.call-icon img {
+  width: 13%;
+  z-index: 1000 !important;
+}
+
+.book-icon {
+  position: fixed;
+  right: -5%;
+  top: 42%;
+  z-index: 1000 !important;
+  width: 20%;
+  cursor: pointer;
+}
+.book-icon img {
+  position: fixed;
+  right: 1.6%;
+  top: 54.5%;
+  z-index: 1000 !important;
+  width: 7%;
+  cursor: pointer;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+  .homeLogo img {
+    width: 50%;
+    padding: 2.5rem 0 0 0;
+  }
+
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-size: 30px;
+    width: 97%;
+    font-weight: 500;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+  .homeLogo img {
+    width: 50%;
+    padding: 2.5rem 0 0 0;
+  }
+
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-size: 27px;
+    width: 97%;
+    font-weight: 500;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+
+
+}
+

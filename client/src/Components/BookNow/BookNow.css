@@ -1,0 +1,242 @@
+.bookNow-mainContainer {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  background-color: #f1f1f1;
+  width: 80%;
+  margin: auto;
+  z-index: 60;
+}
+
+.bookNowcloseButton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.bookNow-subContainer {
+  width: 50%;
+  
+  margin: auto;
+}
+
+.bookNow-mainHeading p {
+  font-size: 50px;
+  padding: 0.5rem 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-align: center;
+}
+
+.bookNowformDeatils-name label,
+.bookNowformDeatils-email label,
+.bookNowformDeatils-number label,
+.bookNowformDeatils-description label {
+  font-size: 16px;
+}
+
+.bookNowformDeatils-name input,
+.bookNowformDeatils-email input,
+.bookNowformDeatils-number input,
+.bookNowformDeatils-description textarea {
+  width: 100%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #d9d9d9;
+  outline: none;
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+.bookNowformDeatils-description textarea {
+  width: 100% !important;
+  height: 100px;
+}
+
+.bookNow-submitButton {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.bookNow-submitButton button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1370px) {
+  .bookNow-mainContainer {
+    position: absolute;
+    right: 10%;
+    top: 2%;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bookNow-mainContainer {
+    position: absolute;
+    top: 2%;
+  }
+  
+  .bookNowcloseButton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .bookNow-subContainer {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .bookNow-mainHeading p {
+    font-size: 30px;
+    padding: 1rem 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    text-align: center;
+  }
+  
+  .bookNowformDeatils-name label,
+  .bookNowformDeatils-email label,
+  .bookNowformDeatils-number label,
+  .bookNowformDeatils-description label {
+    font-size: 13px;
+  }
+  
+  .bookNowformDeatils-name input,
+  .bookNowformDeatils-email input,
+  .bookNowformDeatils-number input,
+  .bookNowformDeatils-description textarea {
+    width: 100%;
+    padding: 6px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    outline: none;
+    margin-bottom: 1rem;
+    resize: none;
+  }
+  
+  .bookNowformDeatils-description textarea {
+    width: 100% !important;
+    height: 80px;
+  }
+  
+  .bookNow-submitButton {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .bookNow-submitButton button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+}
+
+
+@media only screen and (max-width: 430px) {
+  .bookNow-mainContainer {
+    position: absolute;
+    right: 8%;
+    top: 15%;
+    background-color: #f1f1f1;
+    width: 80%;
+    margin: auto;
+    z-index: 60;
+  }
+
+  .bookNowcloseButton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .bookNow-subContainer {
+    width: 80%;
+    margin: auto;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .bookNow-mainHeading p {
+    font-size: 25px;
+    padding: 0.5rem 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    text-align: center;
+  }
+
+  .bookNowformDeatils-name label,
+  .bookNowformDeatils-email label,
+  .bookNowformDeatils-number label,
+  .bookNowformDeatils-description label {
+    font-size: 10px;
+  }
+
+  .bookNowformDeatils-name input,
+  .bookNowformDeatils-email input,
+  .bookNowformDeatils-number input,
+  .bookNowformDeatils-description textarea {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    outline: none;
+    margin-bottom: 0.5rem;
+    resize: none;
+  }
+
+  .bookNowformDeatils-description textarea {
+    width: 100% !important;
+    height: 100px;
+  }
+
+  .booknow-submitButton {
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  .bookNow-submitButton button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
